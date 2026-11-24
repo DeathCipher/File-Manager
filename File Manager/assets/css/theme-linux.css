@@ -1,0 +1,28 @@
+:root{
+  --bg: #050A07;
+  --panel: #0A100C;
+  --panel-2: #0D1710;
+  --line: #1E2E22;
+  --text: #D7E5DA;
+  --muted: #66806D;
+  --folder: #4CD97B;
+  --subfolder: #F2A65A;
+  --file: #59D2F2;
+  --danger: #FF6B57;
+  --shadow: rgba(0,0,0,0.55);
+  --accent-2: var(--file);
+  --focus-ring: rgba(76,217,123,0.15);
+}
+html[data-theme="light"]{
+  --bg: #F1F5F0;
+  --panel: #FFFFFF;
+  --panel-2: #EAF1E6;
+  --line: #D5E0D2;
+  --text: #1B2A1F;
+  --muted: #667A6B;
+  --folder: #1F9A52;
+  --subfolder: #B9740B;
+  --file: #17879E;
+  --danger: #C7392F;
+  --shadow: rgba(15,30,20,0.12);
+}
